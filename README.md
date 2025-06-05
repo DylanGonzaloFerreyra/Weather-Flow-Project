@@ -29,20 +29,20 @@ The save_to_supabase function save the process data in supabase, separating: ind
 
 # Services, Tools, etc. ☁️💾
 
-- **OpenWeatherMap:** API usada para la extraccion de datos meteorologicos.
-- **Apache Spark:** Framework usado para el procesamiento de los datos.
-- **Apache Airflow:** Plataforma usada para la administracion del flujo de trabajo.
-- **Supabase:** Alternativa a Firebase de código abierto usada para el almacenamiento de los datos
+- **OpenWeatherMap:** API used for extracting meteorological data.
+- **Apache Spark:** Framework used for data processing.
+- **Apache Airflow:** Platform used for work flow management.
+- **Supabase:** An open source alternative to firebase used for data storage. 
 
-# Capturas del Proyect 📸 
+# Screenshots 📸 
 
-🗺️ Datos meteorológicos procesados en Supabase
+🗺️ Meteorological data processed in Supabase 
 ![cover](images/screenshots/weather_summary_table.png)
 
-🔄 Flujo de trabajo en Airflow
+🔄 WordFlow in Airflow 
 ![cover](images/screenshots/airflow_graph.png)
 
-🌆 Registros individuales por ciudad
+🌆 Individual records by city 
 ![cover](images/screenshots/city_weather_table.png)
 
 
@@ -81,7 +81,7 @@ La función save_to_supabase guarda los datos procesados en Supabase, separando:
 - **Apache Airflow:** Plataforma usada para la administracion del flujo de trabajo.
 - **Supabase:** Alternativa a Firebase de código abierto usada para el almacenamiento de los datos
 
-# Capturas del Proyect 📸 
+# Capturas 📸 
 
 🗺️ Datos meteorológicos procesados en Supabase
 ![cover](images/screenshots/weather_summary_table.png)
