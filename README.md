@@ -30,4 +30,9 @@ La función process_data procesa los datos obtenidos de la API usando Apache Spa
 - Datos individuales de cada ciudad (raw_data).
 - Resumen global con promedios y valores extremos (calculated_data).
 
+3.**Almacenamiento y Consumo (save_to_supabase):**
+
+La función save_to_supabase guarda los datos procesados en Supabase, separando: los Registros individuales en la tabla city_weather del resumen global en weather_summary, agregando una columna "city": "Global" para identificar que es una métrica agregada.
+
+
 
